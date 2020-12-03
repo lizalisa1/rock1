@@ -1,0 +1,42 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+img {
+  max-width: 900px;
+}
+h1 {
+  text-align: center;
+  font-size: 50pt;
+}
+button.bit {
+  color: #fff;
+	user-select: none; /* Убираем текстовое выделение */
+	text-decoration: none;	/* Убираем подчеркивание */
+	outline: none; /* Убираем контур вокруг ссылки */
+	background-color: #b6b6b6; /* Цвет фона */
+	padding: 1em 2em; /* Отступ от текста до рамки */
+  }
+  
+a.nubex {
+  color: #fff;
+	user-select: none; /* Убираем текстовое выделение */
+	text-decoration: none;	/* Убираем подчеркивание */
+	outline: none; /* Убираем контур вокруг ссылки */
+	background-color: #000000; /* Цвет фона */
+	padding: 1em 2em; /* Отступ от текста до рамки */
+  }
+  body{
+    background-color: rgb(129, 141, 196);
+   }
+   p {
+    font-size: 15pt;
+    border: 0px solid red;
+    padding: 0px;
+   }
+   .nav-el-selected {
+    color: red !important;
+  }
+  .nav-el {
+    color: blue;
+    }
